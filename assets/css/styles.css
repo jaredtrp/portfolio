@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #f7f7f7;
+    font-family: Poppins, sans-serif;
+    min-height: 100vh;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 3em;
+    color: #ffffff
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 1.2em;
+    color: #031121;
+}
+
+h3 {
+    font-weight: 400;
+    color: #8fd3e2
+}
+
+.brand-logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    width: 100%;
+    max-width: 60px;
+}
+
+.main-nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 1rem;
+    font-weight: 500;
+}
+
+.main-nav a:hover {
+    color: #8FD3E2;
+}
+
+.main-header {
+    background-color: #031121;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.main-hero {
+    width: 100%;
+    background-image: linear-gradient(#013047, #627a7b);
+}
+
+.section-hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 400px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.image-wrapper {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+}
+
+.portrait {
+    max-height: 350px;
+}
+
+.text-wrapper {
+    padding: 0 0 50px 0;
+    margin: 0;
+}
+
+.title-shared {
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.main-about-me {
+    background-color: #f0f0f0;
+}
+
+.section-about-me {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.aside-about-me {
+    white-space: nowrap;
+    padding: 50px 20px 0px 0px;
+}
+
+.article-about-me {
+    padding: 50px 0px 50px 20px;
+}
+
+.article-about-me p {
+    padding: 0px;
+    margin: 0px;
+}
