@@ -97,7 +97,7 @@ h3 {
 }
 
 .portrait {
-    max-height: 350px;
+    max-height: 350px
 }
 
 .text-wrapper {
@@ -112,7 +112,7 @@ h3 {
 }
 
 .main-about-me {
-    background-color: #f0f0f0;
+    background-color: #f9f9f9;
 }
 
 .section-about-me {
@@ -127,13 +127,83 @@ h3 {
 .aside-about-me {
     white-space: nowrap;
     padding: 50px 20px 0px 0px;
+    width: 300px;
+    text-align: right;
 }
 
 .article-about-me {
     padding: 50px 0px 50px 20px;
+    max-width: 900px;
 }
 
 .article-about-me p {
     padding: 0px;
     margin: 0px;
+}
+
+.main-work {
+    background-color: #eeeeee;
+}
+
+.section-work {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.aside-work {
+    white-space: nowrap;
+    padding: 50px 0px 0px 0px;
+    width: 300px;
+    text-align: right;
+}
+
+.article-work {
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 50px 0px 50px 20px;
+    max-width: 900px
+}
+
+.article-work img {
+    padding: 0;
+    margin: 0px 30px 30px 30px;
+    max-width: 350px;
+}
+
+.nav-footer ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    white-space: nowrap;
+}
+
+.nav-footer a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 1rem;
+    font-weight: 500;
+}
+
+.nav-footer a:hover {
+    color: #8FD3E2;
+}
+
+.main-footer {
+    background-color: #031121;
+}
+
+.section-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
 }
