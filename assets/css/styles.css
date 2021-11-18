@@ -42,6 +42,7 @@ h3 {
     margin: 0;
     padding: 0;
     list-style: none;
+    white-space: nowrap;
 }
 
 .main-nav a {
@@ -83,7 +84,7 @@ h3 {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0;
+    padding: 0 50px;
 }
 
 .image-wrapper {
@@ -106,6 +107,7 @@ h3 {
 
 .title-shared {
     text-transform: uppercase;
+    white-space: nowrap;
     margin: 0;
 }
 
@@ -119,7 +121,7 @@ h3 {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0;
+    padding: 0 50px;
 }
 
 .aside-about-me {
