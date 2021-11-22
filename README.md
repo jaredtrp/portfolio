@@ -13,7 +13,7 @@ The hero section contains my name, title, and a portrait of myself. This section
 
 ## Work
 
-This section contains the 2 major projects I've worked on so far. It uses flexbox and media queries.
+This section contains the 2 major projects I've worked on so far. It uses flexbox and media queries. If the user hovers over each project, it will drop in opacity.
 
 ## Contact
 
