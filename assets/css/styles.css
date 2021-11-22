@@ -26,7 +26,14 @@ h2 {
 
 h3 {
     font-weight: 400;
-    color: #8fd3e2
+    color: #8fd3e2;
+    margin: 0;
+}
+
+h4 {
+    font-weight: 700;
+    font-size: 2em;
+    margin: 0;
 }
 
 .brand-logo {
@@ -97,7 +104,7 @@ h3 {
 }
 
 .portrait {
-    max-height: 350px
+    max-width: 400px;
 }
 
 .text-wrapper {
@@ -124,13 +131,6 @@ h3 {
     padding: 0 50px;
 }
 
-.aside-about-me {
-    white-space: nowrap;
-    padding: 50px 20px 0px 0px;
-    width: 300px;
-    text-align: right;
-}
-
 .article-about-me {
     padding: 50px 0px 50px 20px;
     max-width: 900px;
@@ -143,35 +143,54 @@ h3 {
 
 .main-work {
     background-color: #eeeeee;
+    padding: 50px 50px 50px 50px;
 }
 
 .section-work {
-    display: flex;
-    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 50px;
-}
-
-.aside-work {
-    white-space: nowrap;
-    padding: 50px 0px 0px 0px;
-    width: 300px;
-    text-align: right;
 }
 
 .article-work {
     display:flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-wrap: wrap;
-    padding: 50px 0px 50px 20px;
-    max-width: 900px
+    margin: 30px;
 }
 
-.article-work img {
-    padding: 0;
-    margin: 0px 30px 30px 30px;
-    max-width: 350px;
+.article-work > * {
+    flex: 1 1 50%;
+}
+
+.article-work div:hover {
+    opacity: .5;
+}
+
+.article-work a {
+    text-decoration: none;
+}
+
+.work-box {
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: 500px;
+    padding: 30px 30px 30px 0px;
+}
+
+.work-title {
+    max-width: 300px;
+    color: #ffffff;
+    background-color: #013047;
+    padding: 20px 20px 20px 10px !important;
+}
+
+.work-title-section {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px 50px 0px 70px;
 }
 
 .nav-footer ul {
@@ -207,3 +226,18 @@ h3 {
     margin: 0 auto;
     padding: 0 40px;
 }
+
+@media (max-width: 900px) {
+    .article-work  {
+        flex-direction: column;
+    }
+    .section-hero  {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        height: 550px;
+    }
+    .main-hero {
+        height: 550px;
+    }
+  }
